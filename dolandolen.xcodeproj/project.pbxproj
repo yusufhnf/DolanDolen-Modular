@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C177D7071A0BAAB529C07234 /* Pods_dolandolenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F5F62DB10CE7EEAED4523D /* Pods_dolandolenTests.framework */; };
+		DA47BF4CE6A978CB284F751E /* Pods_dolandolen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7742EFB0BCED0646F2C1C681 /* Pods_dolandolen.framework */; };
+		ED0ECB5D26D727BC0053F21A /* EditAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0ECB5C26D727BC0053F21A /* EditAboutViewController.swift */; };
+		ED133B012753C622004FA385 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED133B002753C622004FA385 /* HomeRouter.swift */; };
+		ED1A0D7A26D3BD400044B77B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1A0D7926D3BD400044B77B /* SearchViewController.swift */; };
+		ED4FA47027CBBA8A00000488 /* Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4FA46F27CBBA8A00000488 /* Game.framework */; };
+		ED4FA47427CBBA8E00000488 /* GameFavourite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4FA47327CBBA8E00000488 /* GameFavourite.framework */; };
+		ED4FA47827CBBEFF00000488 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4FA47727CBBEFE00000488 /* Injection.swift */; };
+		ED5DE7F926CEAA6600AABD8D /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5DE7F726CEAA6600AABD8D /* GameTableViewCell.swift */; };
+		ED5DE7FA26CEAA6600AABD8D /* GameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED5DE7F826CEAA6600AABD8D /* GameTableViewCell.xib */; };
+		ED6F838026D6FA970023F50E /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6F837F26D6FA970023F50E /* FavoritesViewController.swift */; };
+		ED8C743326C40B810075DE4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C743226C40B810075DE4E /* AppDelegate.swift */; };
+		ED8C743526C40B810075DE4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C743426C40B810075DE4E /* SceneDelegate.swift */; };
+		ED8C743F26C40B820075DE4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8C743E26C40B820075DE4E /* Assets.xcassets */; };
+		ED8C744226C40B820075DE4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8C744026C40B820075DE4E /* LaunchScreen.storyboard */; };
+		ED8C744D26C40B820075DE4E /* dolandolenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C744C26C40B820075DE4E /* dolandolenTests.swift */; };
+		ED8C745826C40B820075DE4E /* dolandolenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C745726C40B820075DE4E /* dolandolenUITests.swift */; };
+		ED8C746A26C410440075DE4E /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C746926C410440075DE4E /* TabbarViewController.swift */; };
+		ED8C746C26C410AD0075DE4E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C746B26C410AD0075DE4E /* AboutViewController.swift */; };
+		ED8C746E26C4122D0075DE4E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C746D26C4122D0075DE4E /* HomeViewController.swift */; };
+		EDA9CE0C26D24AD600C416F7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9CE0A26D24AD600C416F7 /* DetailViewController.swift */; };
+		EDA9CE0D26D24AD600C416F7 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA9CE0B26D24AD600C416F7 /* DetailViewController.xib */; };
+		EDB9817127CD2A940096A225 /* GameCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDB9816F27CD2A940096A225 /* GameCoreDataModel.xcdatamodeld */; };
+		EDC4D23E2754F05300562B7F /* FavouriteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4D23D2754F05300562B7F /* FavouriteRouter.swift */; };
+		EDC4D2412754F0A500562B7F /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4D2402754F0A500562B7F /* SearchRouter.swift */; };
+		F6070141B4CBDDA10BE381F3 /* Pods_dolandolen_dolandolenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE70C17F07D5FD5F7E39D15E /* Pods_dolandolen_dolandolenUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED8C744926C40B820075DE4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8C742726C40B810075DE4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8C742E26C40B810075DE4E;
+			remoteInfo = dolandolen;
+		};
+		ED8C745426C40B820075DE4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8C742726C40B810075DE4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8C742E26C40B810075DE4E;
+			remoteInfo = dolandolen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46816CB182A99CCF5D8BA6A9 /* Pods-dolandolen-dolandolenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dolandolen-dolandolenUITests.debug.xcconfig"; path = "Target Support Files/Pods-dolandolen-dolandolenUITests/Pods-dolandolen-dolandolenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62F4CF898CF2DB31888EA5CA /* Pods-dolandolen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dolandolen.release.xcconfig"; path = "Target Support Files/Pods-dolandolen/Pods-dolandolen.release.xcconfig"; sourceTree = "<group>"; };
+		7742EFB0BCED0646F2C1C681 /* Pods_dolandolen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dolandolen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		837B7583CA39425FA1ABD666 /* Pods-dolandolenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dolandolenTests.debug.xcconfig"; path = "Target Support Files/Pods-dolandolenTests/Pods-dolandolenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90F5F62DB10CE7EEAED4523D /* Pods_dolandolenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dolandolenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48E8F3FDDD2BADD82D8BD5B /* Pods-dolandolen-dolandolenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dolandolen-dolandolenUITests.release.xcconfig"; path = "Target Support Files/Pods-dolandolen-dolandolenUITests/Pods-dolandolen-dolandolenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE70C17F07D5FD5F7E39D15E /* Pods_dolandolen_dolandolenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dolandolen_dolandolenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD71E173576A527AF5E80822 /* Pods-dolandolen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dolandolen.debug.xcconfig"; path = "Target Support Files/Pods-dolandolen/Pods-dolandolen.debug.xcconfig"; sourceTree = "<group>"; };
+		ED0ECB5C26D727BC0053F21A /* EditAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAboutViewController.swift; sourceTree = "<group>"; };
+		ED133B002753C622004FA385 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		ED1A0D7926D3BD400044B77B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		ED4FA46F27CBBA8A00000488 /* Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4FA47327CBBA8E00000488 /* GameFavourite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GameFavourite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4FA47727CBBEFE00000488 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		ED5DE7F726CEAA6600AABD8D /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		ED5DE7F826CEAA6600AABD8D /* GameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameTableViewCell.xib; sourceTree = "<group>"; };
+		ED6F837F26D6FA970023F50E /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		ED8C742F26C40B810075DE4E /* dolandolen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dolandolen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8C743226C40B810075DE4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED8C743426C40B810075DE4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED8C743E26C40B820075DE4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED8C744126C40B820075DE4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED8C744326C40B820075DE4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8C744826C40B820075DE4E /* dolandolenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dolandolenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8C744C26C40B820075DE4E /* dolandolenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dolandolenTests.swift; sourceTree = "<group>"; };
+		ED8C744E26C40B820075DE4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8C745326C40B820075DE4E /* dolandolenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dolandolenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8C745726C40B820075DE4E /* dolandolenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dolandolenUITests.swift; sourceTree = "<group>"; };
+		ED8C745926C40B820075DE4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8C746926C410440075DE4E /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		ED8C746B26C410AD0075DE4E /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		ED8C746D26C4122D0075DE4E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EDA9CE0A26D24AD600C416F7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EDA9CE0B26D24AD600C416F7 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		EDB9817027CD2A940096A225 /* GameCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		EDC4D23D2754F05300562B7F /* FavouriteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteRouter.swift; sourceTree = "<group>"; };
+		EDC4D2402754F0A500562B7F /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		FF0297BAD78D33168C9723B4 /* Pods-dolandolenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dolandolenTests.release.xcconfig"; path = "Target Support Files/Pods-dolandolenTests/Pods-dolandolenTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED8C742C26C40B810075DE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4FA47427CBBA8E00000488 /* GameFavourite.framework in Frameworks */,
+				ED4FA47027CBBA8A00000488 /* Game.framework in Frameworks */,
+				DA47BF4CE6A978CB284F751E /* Pods_dolandolen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8C744526C40B820075DE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C177D7071A0BAAB529C07234 /* Pods_dolandolenTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8C745026C40B820075DE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6070141B4CBDDA10BE381F3 /* Pods_dolandolen_dolandolenUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92B46178A88E3E448FACE7F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD71E173576A527AF5E80822 /* Pods-dolandolen.debug.xcconfig */,
+				62F4CF898CF2DB31888EA5CA /* Pods-dolandolen.release.xcconfig */,
+				46816CB182A99CCF5D8BA6A9 /* Pods-dolandolen-dolandolenUITests.debug.xcconfig */,
+				A48E8F3FDDD2BADD82D8BD5B /* Pods-dolandolen-dolandolenUITests.release.xcconfig */,
+				837B7583CA39425FA1ABD666 /* Pods-dolandolenTests.debug.xcconfig */,
+				FF0297BAD78D33168C9723B4 /* Pods-dolandolenTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		947D3A27D8276FBBD5214CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED4FA47327CBBA8E00000488 /* GameFavourite.framework */,
+				ED4FA46F27CBBA8A00000488 /* Game.framework */,
+				7742EFB0BCED0646F2C1C681 /* Pods_dolandolen.framework */,
+				AE70C17F07D5FD5F7E39D15E /* Pods_dolandolen_dolandolenUITests.framework */,
+				90F5F62DB10CE7EEAED4523D /* Pods_dolandolenTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED710B00274E6D990016F5BA /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				ED710B18274E76770016F5BA /* Tabbar */,
+				ED710B06274E727F0016F5BA /* EditAbout */,
+				ED710B05274E726B0016F5BA /* Favourites */,
+				ED710B04274E725D0016F5BA /* Search */,
+				ED710B03274E72540016F5BA /* Detail */,
+				ED710B02274E72400016F5BA /* Home */,
+				ED710B01274E72300016F5BA /* About */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		ED710B01274E72300016F5BA /* About */ = {
+			isa = PBXGroup;
+			children = (
+				ED710B07274E72D10016F5BA /* View */,
+				ED710B0A274E72E60016F5BA /* Router */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		ED710B02274E72400016F5BA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ED710B0D274E73140016F5BA /* View */,
+				ED710B0B274E73060016F5BA /* Router */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ED710B03274E72540016F5BA /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				ED710B0F274E73240016F5BA /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		ED710B04274E725D0016F5BA /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4D23F2754F09900562B7F /* Router */,
+				ED710B11274E73320016F5BA /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		ED710B05274E726B0016F5BA /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4D23C2754F04500562B7F /* Router */,
+				ED710B13274E73510016F5BA /* View */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		ED710B06274E727F0016F5BA /* EditAbout */ = {
+			isa = PBXGroup;
+			children = (
+				ED710B15274E735F0016F5BA /* View */,
+			);
+			path = EditAbout;
+			sourceTree = "<group>";
+		};
+		ED710B07274E72D10016F5BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED8C746B26C410AD0075DE4E /* AboutViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED710B0A274E72E60016F5BA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		ED710B0B274E73060016F5BA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				ED133B002753C622004FA385 /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		ED710B0D274E73140016F5BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED5DE7F726CEAA6600AABD8D /* GameTableViewCell.swift */,
+				ED5DE7F826CEAA6600AABD8D /* GameTableViewCell.xib */,
+				ED8C746D26C4122D0075DE4E /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED710B0F274E73240016F5BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDA9CE0A26D24AD600C416F7 /* DetailViewController.swift */,
+				EDA9CE0B26D24AD600C416F7 /* DetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED710B11274E73320016F5BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED1A0D7926D3BD400044B77B /* SearchViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED710B13274E73510016F5BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED6F837F26D6FA970023F50E /* FavoritesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED710B15274E735F0016F5BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED0ECB5C26D727BC0053F21A /* EditAboutViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED710B18274E76770016F5BA /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				EDF4354E275388B5007F6BB2 /* View */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		ED710B19274E79A20016F5BA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ED4FA47727CBBEFE00000488 /* Injection.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		ED8C742626C40B810075DE4E = {
+			isa = PBXGroup;
+			children = (
+				ED8C743126C40B810075DE4E /* dolandolen */,
+				ED8C744B26C40B820075DE4E /* dolandolenTests */,
+				ED8C745626C40B820075DE4E /* dolandolenUITests */,
+				ED8C743026C40B810075DE4E /* Products */,
+				92B46178A88E3E448FACE7F1 /* Pods */,
+				947D3A27D8276FBBD5214CEA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED8C743026C40B810075DE4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED8C742F26C40B810075DE4E /* dolandolen.app */,
+				ED8C744826C40B820075DE4E /* dolandolenTests.xctest */,
+				ED8C745326C40B820075DE4E /* dolandolenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED8C743126C40B810075DE4E /* dolandolen */ = {
+			isa = PBXGroup;
+			children = (
+				ED710B19274E79A20016F5BA /* Core */,
+				ED710B00274E6D990016F5BA /* Module */,
+				ED8C746526C40FF10075DE4E /* Base */,
+				ED8C743E26C40B820075DE4E /* Assets.xcassets */,
+				ED8C744326C40B820075DE4E /* Info.plist */,
+				EDB9816F27CD2A940096A225 /* GameCoreDataModel.xcdatamodeld */,
+			);
+			path = dolandolen;
+			sourceTree = "<group>";
+		};
+		ED8C744B26C40B820075DE4E /* dolandolenTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8C744C26C40B820075DE4E /* dolandolenTests.swift */,
+				ED8C744E26C40B820075DE4E /* Info.plist */,
+			);
+			path = dolandolenTests;
+			sourceTree = "<group>";
+		};
+		ED8C745626C40B820075DE4E /* dolandolenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8C745726C40B820075DE4E /* dolandolenUITests.swift */,
+				ED8C745926C40B820075DE4E /* Info.plist */,
+			);
+			path = dolandolenUITests;
+			sourceTree = "<group>";
+		};
+		ED8C746526C40FF10075DE4E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				ED8C743426C40B810075DE4E /* SceneDelegate.swift */,
+				ED8C743226C40B810075DE4E /* AppDelegate.swift */,
+				ED8C744026C40B820075DE4E /* LaunchScreen.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EDC4D23C2754F04500562B7F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4D23D2754F05300562B7F /* FavouriteRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EDC4D23F2754F09900562B7F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4D2402754F0A500562B7F /* SearchRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EDF4354E275388B5007F6BB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED8C746926C410440075DE4E /* TabbarViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED8C742E26C40B810075DE4E /* dolandolen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8C745C26C40B820075DE4E /* Build configuration list for PBXNativeTarget "dolandolen" */;
+			buildPhases = (
+				4BEEAB1919C84202FFB07D9D /* [CP] Check Pods Manifest.lock */,
+				ED8C742B26C40B810075DE4E /* Sources */,
+				ED8C742C26C40B810075DE4E /* Frameworks */,
+				ED8C742D26C40B810075DE4E /* Resources */,
+				ED85705126D4D71200E03BFE /* ShellScript */,
+				8A9B812966440B24BD7DE843 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dolandolen;
+			productName = dolandolen;
+			productReference = ED8C742F26C40B810075DE4E /* dolandolen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED8C744726C40B820075DE4E /* dolandolenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8C745F26C40B820075DE4E /* Build configuration list for PBXNativeTarget "dolandolenTests" */;
+			buildPhases = (
+				A79F58DB026B0B28B39413ED /* [CP] Check Pods Manifest.lock */,
+				ED8C744426C40B820075DE4E /* Sources */,
+				ED8C744526C40B820075DE4E /* Frameworks */,
+				ED8C744626C40B820075DE4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8C744A26C40B820075DE4E /* PBXTargetDependency */,
+			);
+			name = dolandolenTests;
+			productName = dolandolenTests;
+			productReference = ED8C744826C40B820075DE4E /* dolandolenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED8C745226C40B820075DE4E /* dolandolenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8C746226C40B820075DE4E /* Build configuration list for PBXNativeTarget "dolandolenUITests" */;
+			buildPhases = (
+				85AC47F6867A48649D3964AD /* [CP] Check Pods Manifest.lock */,
+				ED8C744F26C40B820075DE4E /* Sources */,
+				ED8C745026C40B820075DE4E /* Frameworks */,
+				ED8C745126C40B820075DE4E /* Resources */,
+				10FA00BACC3AB4D3AE43F616 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8C745526C40B820075DE4E /* PBXTargetDependency */,
+			);
+			name = dolandolenUITests;
+			productName = dolandolenUITests;
+			productReference = ED8C745326C40B820075DE4E /* dolandolenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED8C742726C40B810075DE4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					ED8C742E26C40B810075DE4E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					ED8C744726C40B820075DE4E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = ED8C742E26C40B810075DE4E;
+					};
+					ED8C745226C40B820075DE4E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = ED8C742E26C40B810075DE4E;
+					};
+				};
+			};
+			buildConfigurationList = ED8C742A26C40B810075DE4E /* Build configuration list for PBXProject "dolandolen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED8C742626C40B810075DE4E;
+			productRefGroup = ED8C743026C40B810075DE4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED8C742E26C40B810075DE4E /* dolandolen */,
+				ED8C744726C40B820075DE4E /* dolandolenTests */,
+				ED8C745226C40B820075DE4E /* dolandolenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED8C742D26C40B810075DE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8C744226C40B820075DE4E /* LaunchScreen.storyboard in Resources */,
+				ED8C743F26C40B820075DE4E /* Assets.xcassets in Resources */,
+				ED5DE7FA26CEAA6600AABD8D /* GameTableViewCell.xib in Resources */,
+				EDA9CE0D26D24AD600C416F7 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8C744626C40B820075DE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8C745126C40B820075DE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10FA00BACC3AB4D3AE43F616 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dolandolen-dolandolenUITests/Pods-dolandolen-dolandolenUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dolandolen-dolandolenUITests/Pods-dolandolen-dolandolenUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dolandolen-dolandolenUITests/Pods-dolandolen-dolandolenUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BEEAB1919C84202FFB07D9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dolandolen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85AC47F6867A48649D3964AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dolandolen-dolandolenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A9B812966440B24BD7DE843 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dolandolen/Pods-dolandolen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dolandolen/Pods-dolandolen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dolandolen/Pods-dolandolen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A79F58DB026B0B28B39413ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dolandolenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED85705126D4D71200E03BFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED8C742B26C40B810075DE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4FA47827CBBEFF00000488 /* Injection.swift in Sources */,
+				ED0ECB5D26D727BC0053F21A /* EditAboutViewController.swift in Sources */,
+				ED8C746C26C410AD0075DE4E /* AboutViewController.swift in Sources */,
+				EDC4D23E2754F05300562B7F /* FavouriteRouter.swift in Sources */,
+				ED8C746A26C410440075DE4E /* TabbarViewController.swift in Sources */,
+				ED5DE7F926CEAA6600AABD8D /* GameTableViewCell.swift in Sources */,
+				ED8C743326C40B810075DE4E /* AppDelegate.swift in Sources */,
+				ED8C743526C40B810075DE4E /* SceneDelegate.swift in Sources */,
+				ED1A0D7A26D3BD400044B77B /* SearchViewController.swift in Sources */,
+				EDA9CE0C26D24AD600C416F7 /* DetailViewController.swift in Sources */,
+				EDC4D2412754F0A500562B7F /* SearchRouter.swift in Sources */,
+				ED8C746E26C4122D0075DE4E /* HomeViewController.swift in Sources */,
+				EDB9817127CD2A940096A225 /* GameCoreDataModel.xcdatamodeld in Sources */,
+				ED133B012753C622004FA385 /* HomeRouter.swift in Sources */,
+				ED6F838026D6FA970023F50E /* FavoritesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8C744426C40B820075DE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8C744D26C40B820075DE4E /* dolandolenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8C744F26C40B820075DE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8C745826C40B820075DE4E /* dolandolenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED8C744A26C40B820075DE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8C742E26C40B810075DE4E /* dolandolen */;
+			targetProxy = ED8C744926C40B820075DE4E /* PBXContainerItemProxy */;
+		};
+		ED8C745526C40B820075DE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8C742E26C40B810075DE4E /* dolandolen */;
+			targetProxy = ED8C745426C40B820075DE4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED8C744026C40B820075DE4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8C744126C40B820075DE4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED8C745A26C40B820075DE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED8C745B26C40B820075DE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED8C745D26C40B820075DE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD71E173576A527AF5E80822 /* Pods-dolandolen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR6DV84J94;
+				INFOPLIST_FILE = dolandolen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MeetUcup.dolandolen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED8C745E26C40B820075DE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F4CF898CF2DB31888EA5CA /* Pods-dolandolen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR6DV84J94;
+				INFOPLIST_FILE = dolandolen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MeetUcup.dolandolen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED8C746026C40B820075DE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837B7583CA39425FA1ABD666 /* Pods-dolandolenTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR6DV84J94;
+				INFOPLIST_FILE = dolandolenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MeetUcup.dolandolenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dolandolen.app/dolandolen";
+			};
+			name = Debug;
+		};
+		ED8C746126C40B820075DE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF0297BAD78D33168C9723B4 /* Pods-dolandolenTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR6DV84J94;
+				INFOPLIST_FILE = dolandolenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MeetUcup.dolandolenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dolandolen.app/dolandolen";
+			};
+			name = Release;
+		};
+		ED8C746326C40B820075DE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46816CB182A99CCF5D8BA6A9 /* Pods-dolandolen-dolandolenUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR6DV84J94;
+				INFOPLIST_FILE = dolandolenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MeetUcup.dolandolenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dolandolen;
+			};
+			name = Debug;
+		};
+		ED8C746426C40B820075DE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48E8F3FDDD2BADD82D8BD5B /* Pods-dolandolen-dolandolenUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR6DV84J94;
+				INFOPLIST_FILE = dolandolenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MeetUcup.dolandolenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dolandolen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED8C742A26C40B810075DE4E /* Build configuration list for PBXProject "dolandolen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8C745A26C40B820075DE4E /* Debug */,
+				ED8C745B26C40B820075DE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8C745C26C40B820075DE4E /* Build configuration list for PBXNativeTarget "dolandolen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8C745D26C40B820075DE4E /* Debug */,
+				ED8C745E26C40B820075DE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8C745F26C40B820075DE4E /* Build configuration list for PBXNativeTarget "dolandolenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8C746026C40B820075DE4E /* Debug */,
+				ED8C746126C40B820075DE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8C746226C40B820075DE4E /* Build configuration list for PBXNativeTarget "dolandolenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8C746326C40B820075DE4E /* Debug */,
+				ED8C746426C40B820075DE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDB9816F27CD2A940096A225 /* GameCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDB9817027CD2A940096A225 /* GameCoreDataModel.xcdatamodel */,
+			);
+			currentVersion = EDB9817027CD2A940096A225 /* GameCoreDataModel.xcdatamodel */;
+			path = GameCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED8C742726C40B810075DE4E /* Project object */;
+}

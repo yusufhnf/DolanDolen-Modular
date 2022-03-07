@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "04518CF7-6555-4615-ADF1-A22437D56FB5"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48E297A9-BBDD-4675-B9A1-C17980402456"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../GameFavourite/GameFavourite/Data/Local/GameFavouriteLocalData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getFavouritesData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA3A74AB-CB48-40DB-8CF2-D0083B6B7109"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../GameFavourite/GameFavourite/Data/Local/GameFavouriteLocalData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getFavouritesData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BA3A74AB-CB48-40DB-8CF2-D0083B6B7109 - 983587b69fb41102"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GameFavourite.GameFavouriteLocalData.getFavouritesData() -&gt; RxSwift.Observable&lt;Swift.Array&lt;GameFavourite.GameFavoriteEntity&gt;&gt;"
+                  moduleName = "GameFavourite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yusufhnf/project/ios/dolandolen-modular/GameFavourite/GameFavourite/Data/Local/GameFavouriteLocalData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "BA3A74AB-CB48-40DB-8CF2-D0083B6B7109 - b01795d963048314"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.AnyObserver&lt;Swift.Array&lt;GameFavourite.GameFavoriteEntity&gt;&gt;) -&gt; RxSwift.Disposable in GameFavourite.GameFavouriteLocalData.getFavouritesData() -&gt; RxSwift.Observable&lt;Swift.Array&lt;GameFavourite.GameFavoriteEntity&gt;&gt;"
+                  moduleName = "GameFavourite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yusufhnf/project/ios/dolandolen-modular/GameFavourite/GameFavourite/Data/Local/GameFavouriteLocalData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "370">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
