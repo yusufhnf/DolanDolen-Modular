@@ -1,0 +1,23 @@
+name: Testing
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    name: Testing iOS app
+    runs-on: macOS-10.15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v1
+      - name: Force XCode 13.2
+        run: sudo xcode-select -switch /Applications/Xcode_13.2.app
+      - name: Testing iOS app
+        run:
+          xcodebuild test -workspace gimpolitan-clean-submission-expert.xcworkspace \
+          -scheme gimpolitan-clean-submission-expert\ iOS \
+          -destination platform=iOS\ Simulator,OS=14.4,name=iPhone\ 12 \
+          clean test | xcpretty
