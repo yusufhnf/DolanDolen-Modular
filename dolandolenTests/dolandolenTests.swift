@@ -490,7 +490,7 @@ class DolandolenTests: XCTestCase {
     
     func testExample() throws {
         // Given
-        let dataSource = GamesRemoteMock(endpoint: "test", key: "a")
+        let dataSource = GameRemoteMock(endpoint: "test", key: "a")
         var test: [ResultGame] = []
         // When
         dataSource.execute(request: "")
@@ -510,7 +510,7 @@ class DolandolenTests: XCTestCase {
 
 extension DolandolenTests {
     
-    class GamesRemoteMock: DomainRemoteDataSource {
+    class GameRemoteMock: DomainRemoteDataSource {
         
         internal init(endpoint: String, key: String) {
             self.endpoint = endpoint
