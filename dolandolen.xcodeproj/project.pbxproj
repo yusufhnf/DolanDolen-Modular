@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C177D7071A0BAAB529C07234 /* Pods_dolandolenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F5F62DB10CE7EEAED4523D /* Pods_dolandolenTests.framework */; };
 		DA47BF4CE6A978CB284F751E /* Pods_dolandolen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7742EFB0BCED0646F2C1C681 /* Pods_dolandolen.framework */; };
+		DC38AF1CA582C61624C02F77 /* Pods_dolandolen_dolandolenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E0283EF0699FA8BB180028 /* Pods_dolandolen_dolandolenUITests.framework */; };
 		ED0ECB5D26D727BC0053F21A /* EditAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0ECB5C26D727BC0053F21A /* EditAboutViewController.swift */; };
 		ED133B012753C622004FA385 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED133B002753C622004FA385 /* HomeRouter.swift */; };
 		ED1A0D7A26D3BD400044B77B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1A0D7926D3BD400044B77B /* SearchViewController.swift */; };
@@ -28,15 +29,11 @@
 		EDA9CE0C26D24AD600C416F7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9CE0A26D24AD600C416F7 /* DetailViewController.swift */; };
 		EDA9CE0D26D24AD600C416F7 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA9CE0B26D24AD600C416F7 /* DetailViewController.xib */; };
 		EDAA727927D86776006D40D7 /* GameFavourite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4FA47327CBBA8E00000488 /* GameFavourite.framework */; };
-		EDAA727A27D86776006D40D7 /* GameFavourite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED4FA47327CBBA8E00000488 /* GameFavourite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EDAA727C27D86778006D40D7 /* Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4FA46F27CBBA8A00000488 /* Game.framework */; };
-		EDAA727D27D86778006D40D7 /* Game.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED4FA46F27CBBA8A00000488 /* Game.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EDAA727E27D8677A006D40D7 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAA727527D866E0006D40D7 /* Common.framework */; };
-		EDAA727F27D8677A006D40D7 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EDAA727527D866E0006D40D7 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EDB9817127CD2A940096A225 /* GameCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDB9816F27CD2A940096A225 /* GameCoreDataModel.xcdatamodeld */; };
 		EDC4D23E2754F05300562B7F /* FavouriteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4D23D2754F05300562B7F /* FavouriteRouter.swift */; };
 		EDC4D2412754F0A500562B7F /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC4D2402754F0A500562B7F /* SearchRouter.swift */; };
-		F6070141B4CBDDA10BE381F3 /* Pods_dolandolen_dolandolenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE70C17F07D5FD5F7E39D15E /* Pods_dolandolen_dolandolenUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,30 +53,16 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		EDAA727B27D86776006D40D7 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				EDAA727F27D8677A006D40D7 /* Common.framework in Embed Frameworks */,
-				EDAA727D27D86778006D40D7 /* Game.framework in Embed Frameworks */,
-				EDAA727A27D86776006D40D7 /* GameFavourite.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		1E62259EE40250F3D40186F2 /* Pods-dolandolenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dolandolenUITests.debug.xcconfig"; path = "Target Support Files/Pods-dolandolenUITests/Pods-dolandolenUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		46816CB182A99CCF5D8BA6A9 /* Pods-dolandolen-dolandolenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dolandolen-dolandolenUITests.debug.xcconfig"; path = "Target Support Files/Pods-dolandolen-dolandolenUITests/Pods-dolandolen-dolandolenUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		62F4CF898CF2DB31888EA5CA /* Pods-dolandolen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dolandolen.release.xcconfig"; path = "Target Support Files/Pods-dolandolen/Pods-dolandolen.release.xcconfig"; sourceTree = "<group>"; };
 		7742EFB0BCED0646F2C1C681 /* Pods_dolandolen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dolandolen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E0283EF0699FA8BB180028 /* Pods_dolandolen_dolandolenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dolandolen_dolandolenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		837B7583CA39425FA1ABD666 /* Pods-dolandolenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dolandolenTests.debug.xcconfig"; path = "Target Support Files/Pods-dolandolenTests/Pods-dolandolenTests.debug.xcconfig"; sourceTree = "<group>"; };
 		90F5F62DB10CE7EEAED4523D /* Pods_dolandolenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dolandolenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A296B09F8CCA9D2FD230CB7C /* Pods-dolandolenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dolandolenUITests.release.xcconfig"; path = "Target Support Files/Pods-dolandolenUITests/Pods-dolandolenUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A48E8F3FDDD2BADD82D8BD5B /* Pods-dolandolen-dolandolenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dolandolen-dolandolenUITests.release.xcconfig"; path = "Target Support Files/Pods-dolandolen-dolandolenUITests/Pods-dolandolen-dolandolenUITests.release.xcconfig"; sourceTree = "<group>"; };
-		AE70C17F07D5FD5F7E39D15E /* Pods_dolandolen_dolandolenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dolandolen_dolandolenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD71E173576A527AF5E80822 /* Pods-dolandolen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dolandolen.debug.xcconfig"; path = "Target Support Files/Pods-dolandolen/Pods-dolandolen.debug.xcconfig"; sourceTree = "<group>"; };
 		ED0ECB5C26D727BC0053F21A /* EditAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAboutViewController.swift; sourceTree = "<group>"; };
 		ED133B002753C622004FA385 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
@@ -138,7 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6070141B4CBDDA10BE381F3 /* Pods_dolandolen_dolandolenUITests.framework in Frameworks */,
+				DC38AF1CA582C61624C02F77 /* Pods_dolandolen_dolandolenUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +137,8 @@
 				A48E8F3FDDD2BADD82D8BD5B /* Pods-dolandolen-dolandolenUITests.release.xcconfig */,
 				837B7583CA39425FA1ABD666 /* Pods-dolandolenTests.debug.xcconfig */,
 				FF0297BAD78D33168C9723B4 /* Pods-dolandolenTests.release.xcconfig */,
+				1E62259EE40250F3D40186F2 /* Pods-dolandolenUITests.debug.xcconfig */,
+				A296B09F8CCA9D2FD230CB7C /* Pods-dolandolenUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -165,8 +150,8 @@
 				ED4FA47327CBBA8E00000488 /* GameFavourite.framework */,
 				ED4FA46F27CBBA8A00000488 /* Game.framework */,
 				7742EFB0BCED0646F2C1C681 /* Pods_dolandolen.framework */,
-				AE70C17F07D5FD5F7E39D15E /* Pods_dolandolen_dolandolenUITests.framework */,
 				90F5F62DB10CE7EEAED4523D /* Pods_dolandolenTests.framework */,
+				80E0283EF0699FA8BB180028 /* Pods_dolandolen_dolandolenUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -419,7 +404,6 @@
 				ED8C742D26C40B810075DE4E /* Resources */,
 				ED85705126D4D71200E03BFE /* ShellScript */,
 				8A9B812966440B24BD7DE843 /* [CP] Embed Pods Frameworks */,
-				EDAA727B27D86776006D40D7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -457,7 +441,7 @@
 				ED8C744F26C40B820075DE4E /* Sources */,
 				ED8C745026C40B820075DE4E /* Frameworks */,
 				ED8C745126C40B820075DE4E /* Resources */,
-				10FA00BACC3AB4D3AE43F616 /* [CP] Embed Pods Frameworks */,
+				AA0B00A7EA3069906232A0E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -540,23 +524,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		10FA00BACC3AB4D3AE43F616 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dolandolen-dolandolenUITests/Pods-dolandolen-dolandolenUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dolandolen-dolandolenUITests/Pods-dolandolen-dolandolenUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dolandolen-dolandolenUITests/Pods-dolandolen-dolandolenUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4BEEAB1919C84202FFB07D9D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -638,6 +605,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA0B00A7EA3069906232A0E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dolandolen-dolandolenUITests/Pods-dolandolen-dolandolenUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dolandolen-dolandolenUITests/Pods-dolandolen-dolandolenUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dolandolen-dolandolenUITests/Pods-dolandolen-dolandolenUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ED85705126D4D71200E03BFE /* ShellScript */ = {
